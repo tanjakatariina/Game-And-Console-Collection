@@ -1,4 +1,4 @@
-package kuutamo;
+
 
 import view.MainGui;
 
