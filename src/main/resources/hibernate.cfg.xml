@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
 <hibernate-configuration>
 	<session-factory>
 		<property name="hibernate.dialect"> org.hibernate.dialect.MySQL5Dialect</property>
@@ -12,6 +13,13 @@
 
 		<property name="show_sql">true</property>
 
-		<!--   <mapping class="fi.metropolia.workplacemanager.model.User" /> -->
+		<mapping class="model.Console"></mapping>
+		<mapping class="model.Image"></mapping>
+		<mapping class="model.Platform"></mapping>
+		<mapping class="model.Region"></mapping>
+		<mapping class="model.ConditionType"></mapping>
+		<mapping class="model.User"></mapping>
+		<mapping class="model.Game"></mapping>
+		<mapping class="model.GameCondition"></mapping>
 	</session-factory>
 </hibernate-configuration>
